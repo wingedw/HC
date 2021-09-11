@@ -3,7 +3,7 @@ Find maximum sum of any contiguous subarray of size k
 Brute Force
 Iterate over entire array comparing with 
 nested for loop
-O(n^2)
+O(n*k)
 
 Best?
 Use sliding window compare current value with stored
