@@ -18,6 +18,25 @@ def ear_count(n):
     
     return ears
 
+def ear_count_inductive(n):
+		if n == 0: return 0
+		if n % 2 == 0:   # even
+				return ear_count_inductive(n - 1) + 3
+		else:	# odd
+				return ear_count_inductive(n - 1) + 2
+
+import time
 ears = 0
-n = 10
+n = 800
+
+t2a = time.time()
+print(ear_count_inductive(n))
+t2b = time.time()
+print(t2b-t2a)
+
+t1a = time.time()
 print(ear_count(n))
+t1b = time.time()
+print(t1b-t1a)
+
+

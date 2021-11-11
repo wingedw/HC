@@ -1,5 +1,5 @@
 # Recursion Problems
-## CodingBat.com
+## CodingBat.com Recursion - 1
 ### String problems
 1. changePi 
    - changePi.py
@@ -21,5 +21,10 @@
    - factorial.py
 5. fibonacci
    - fibonacci.py
+
+## CodeBat.com - Recursion - 2
+### Math Problems
+1. groupSum
+   - group_sum.py
 
 
